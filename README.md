@@ -2,9 +2,8 @@
 RISC based SOC design 
 <br>
 check out the documentation section
-To ensure the SoC project directory structure is formatted for direct pasting into a GitHub README, it needs to be enclosed in a Markdown code block using triple backticks (```) with no language specifier, as this preserves the exact formatting and special characters (like └── and ├──) used in the tree structure. Below is the exact content you can copy and paste into your GitHub README.md file.
 
-```
+```markdown
 ```
 SoC_Project/
 ├── docs/                     # Design docs, architecture specs, memory maps
@@ -27,11 +26,10 @@ SoC_Project/
 │   ├── bootloader/           # FSBL/U-Boot source
 │   ├── kernel/               # Linux kernel source/configs
 │   └── rootfs/               # Buildroot or Yocto setup
-├── fpga_bitstreams/         # FPGA accelerator bitstream binaries
-├── device_tree/             # DTS and DTB files
-├── scripts/                 # Helper scripts for simulation, flashing, etc.
-├── Makefile                 # Top-level build manager
+├── fpga_bitstreams/          # FPGA accelerator bitstream binaries
+├── device_tree/              # DTS and DTB files
+├── scripts/                  # Helper scripts for simulation, flashing, etc.
+├── Makefile                  # Top-level build manager
 └── README.md
 ```
 ```
-
